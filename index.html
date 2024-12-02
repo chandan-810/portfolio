@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chandan Adhikari | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Primary Meta Tags -->
+    <title>Chandan Adhikari</title>
+    <meta name="title" content="Chandan | portfolio" />
+    <meta
+      name="description"
+      content="This website is small show case of my work. In this website I put my lot of efforts"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Chandan | portfolio" />
+    <meta
+      property="og:description"
+      content="This website is small show case of my work. In this website I put my lot of efforts"
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.discordapp.com/attachments/998848043967320082/1020974689247563836/marvin-meyer-SYTO3xs06fU-unsplash.jpg"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" />
+    <meta property="twitter:title" content="Chandan | portfolio" />
+    <meta
+      property="twitter:description"
+      content="This website is small show case of my work. In this website I put my lot of efforts"
+    />
+    <meta
+      property="twitter:image"
+      content="https://cdn.discordapp.com/attachments/998848043967320082/1020974689247563836/marvin-meyer-SYTO3xs06fU-unsplash.jpg"
+    />
+    <script
+      src="https://kit.fontawesome.com/1899d65970.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <nav>
+        <h1 class="logo"><span>Ch</span>andan | portfolio</h1>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Skills</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">contact</a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="container-top">
+        <div class="header-text">
+          <p>Front End-developer</p>
+          <h1>
+            Hi , I'am <br /><span>Chandan Adhikari</span> <br />
+            From Uttrakhand
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!------------------About----------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="https://as2.ftcdn.net/v2/jpg/02/14/74/61/1000_F_214746128_31JkeaP6rU0NzzzdFC4khGkmqc8noe6h.jpg"
+              height="100%"
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I m glad to see you here. The headline above mentions my name
+              Chandan Adhikari, I live in Ramnagar,uttrakahnd. a dedicated web
+              developer with a strong foundation in JavaScript, HTML, and CSS. I
+              am currently enhancing my skills as a part of the CodeYogi
+              program, where I focus on building responsive and user-friendly
+              web applications. My passion lies in transforming creative ideas
+              into functional and visually appealing websites. Whether you need
+              a sleek design or seamless functionality, I am here to bring your
+              vision to life. Let’s collaborate and create something amazing!
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>html</li>
+                <li>Tailwind css</li>
+                <li>Javascript</li>
+                <li>React</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>Fresher</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------skill-------->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-html5"></i>
+            <h2>Html</h2>
+            <p>
+              Currently I'am itermediate in html. HTML is the standard markup
+              language for Web pages. With HTML you I am creating my own
+              Website. HTML is easy to learn - I will enjoy it!.
+            </p>
+            <a href="https://www.w3schools.com/html/" class="btn">
+              Learn more</a
+            >
+          </div>
+          <div>
+            <i class="fa-brands fa-js"></i>
+            <h2>Javascript</h2>
+            <p>
+              Currently I'am beginner in javascript. JavaScript is the world's
+              most popular programming language. JavaScript is the programming
+              language of the Web..
+            </p>
+            <a href="https://www.w3schools.com/js/default.asp" class="btn">
+              Learn more</a
+            >
+          </div>
+          <div>
+            <i class="fa-brands fa-css3-alt"></i>
+            <h2>CSS</h2>
+            <p>
+              Currently I'am itermediate in html. CSS is the language we use to
+              style an HTML document. CSS describes how HTML elements should be
+              displayed..
+            </p>
+            <a href="https://www.w3schools.com/css/default.asp" class="btn">
+              Learn more</a
+            >
+          </div>
+          <div>
+            <i class="fa-brands fa-react"></i>
+            <h2>React.js</h2>
+            <p>
+              Currently I'am beginner in react. react is a JavaScript library
+              for building user interfaces.
+            </p>
+            <a href="https://reactjs.org/" class="btn"> Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------portfolio----------------------->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>TO-DO App</h3>
+              <p>
+                First coading project i made ,is this.as a beginner I put my all
+                strength on this project.
+              </p>
+              <a href="https://chandan-810.github.io/To-Do/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>Wordle Game</h3>
+              <p>
+                with the help of Html , css , javascript i made an Wordle
+                game.it is single page application
+              </p>
+              <a href="https://chandan-810.github.io/Wordle_game/intro.html"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Not completed yet</h3>
+              <p>
+                A new project is on its way ,when it is ready to depoly i will
+                publish project soon.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div id="hidden-div">
+          <div class="work-list">
+            <div class="work">
+              <img src="images/work-4.jpg" />
+              <div class="layer">
+                <h3>Not completed yet</h3>
+                <p>
+                  A new project is on its way ,when it is ready to depoly i will
+                  publish project soon.
+                </p>
+                <a href="#"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/work-5.jpg" />
+              <div class="layer">
+                <h3>Not completed yet</h3>
+                <p>
+                  A new project is on its way ,when it is ready to depoly i will
+                  publish project soon.
+                </p>
+                <a href="#"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/work-6.jpg" />
+              <div class="layer">
+                <h3>Not completed yet</h3>
+                <p>
+                  A new project is on its way ,when it is ready to depoly i will
+                  publish project soon.
+                </p>
+                <a href="#"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div id="seeless" class="btn" onclick="hideDiv()">See Less</div>
+        </div>
+
+        <button id="seemore" class="btn" onclick="displayDiv()">
+          See More
+        </button>
+      </div>
+    </div>
+    <!---------------contact--------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <a href="mailto:adhikarichandan122@gmail.com">
+                <i class="fa-solid fa-paper-plane"></i
+                >adhikarichandan122@gamil.com</a
+              >
+            </p>
+            <p>
+              <a href="tel:8923984819">
+                <i class="fa-solid fa-phone"></i>+91 8923984819</a
+              >
+            </p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/adhikari_anku_810/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/chandan-adhikari-94a42132a/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+
+          <div class="contact-right">
+            <h4>Hire Me as a intern !</h4>
+            <form name="submit-to-google-sheet">
+              <input type="text" name="name" placeholder="Your name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your message"
+              ></textarea>
+              <button class="btn btn2" type="submit">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        Copyright © Chandan.|| Made with <i class="fa-solid fa-heart"></i> by
+        Code Yogi
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+
+      /*------------see more ans less--------------- */
+      var hiddenDiv = document.getElementById("hidden-div");
+      var seemoreBtn = document.getElementById("seemore");
+      function displayDiv() {
+        hiddenDiv.style.display = "block";
+        seemoreBtn.style.display = "none";
+      }
+
+      var seelessBtn = document.getElementById("seeless");
+      function hideDiv() {
+        hiddenDiv.style.display = "none";
+        seemoreBtn.style.display = "block";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwB2FyzTKo9Zh-QxgHGwAIw9zniAnip-S6FS7hKYy-1QNkdwa_f9EuN8Im4q9FWxjBQUw/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent sucessflly";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
