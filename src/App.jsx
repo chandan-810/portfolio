@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "./pages/Home";
+import VideoEditorPortfolio from "./pages/VideoEditorPortfolio";
 
 export default function App() {
   return (
     <div>
-      <Home />
+      <VideoEditorPortfolio />
     </div>
   );
 }
